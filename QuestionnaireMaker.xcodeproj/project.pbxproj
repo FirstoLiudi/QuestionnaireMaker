@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A1D272A2BCBC5510093A375 /* ShowResponsesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1D27292BCBC5510093A375 /* ShowResponsesView.swift */; };
 		7ACE8CC42BC7636600FCC32C /* QuestionnaireMakerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACE8CC32BC7636600FCC32C /* QuestionnaireMakerApp.swift */; };
 		7ACE8CC62BC7636600FCC32C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACE8CC52BC7636600FCC32C /* ContentView.swift */; };
 		7ACE8CC82BC7636800FCC32C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ACE8CC72BC7636800FCC32C /* Assets.xcassets */; };
@@ -14,6 +15,14 @@
 		7ACE8CD52BC7636800FCC32C /* QuestionnaireMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACE8CD42BC7636800FCC32C /* QuestionnaireMakerTests.swift */; };
 		7ACE8CDF2BC7636800FCC32C /* QuestionnaireMakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACE8CDE2BC7636800FCC32C /* QuestionnaireMakerUITests.swift */; };
 		7ACE8CE12BC7636800FCC32C /* QuestionnaireMakerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACE8CE02BC7636800FCC32C /* QuestionnaireMakerUITestsLaunchTests.swift */; };
+		7ACE8CEE2BC7644400FCC32C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7ACE8CED2BC7644400FCC32C /* GoogleService-Info.plist */; };
+		7ACE8CF12BC765D000FCC32C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7ACE8CF02BC765D000FCC32C /* FirebaseAuth */; };
+		7ACE8CF32BC765D000FCC32C /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 7ACE8CF22BC765D000FCC32C /* FirebaseFirestore */; };
+		7ACE8CF52BC765D000FCC32C /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 7ACE8CF42BC765D000FCC32C /* FirebaseFirestoreCombine-Community */; };
+		7ACE8CF72BC765D000FCC32C /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7ACE8CF62BC765D000FCC32C /* FirebaseFirestoreSwift */; };
+		7ACE8CF92BC766AA00FCC32C /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACE8CF82BC766AA00FCC32C /* Models.swift */; };
+		7ACE8CFB2BC79B8300FCC32C /* CreateQuestionnaireView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACE8CFA2BC79B8300FCC32C /* CreateQuestionnaireView.swift */; };
+		7AF325052BC9FB8C004A801B /* FillQuestionnaireView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF325042BC9FB8C004A801B /* FillQuestionnaireView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A1D27292BCBC5510093A375 /* ShowResponsesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowResponsesView.swift; sourceTree = "<group>"; };
 		7ACE8CC02BC7636600FCC32C /* QuestionnaireMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuestionnaireMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ACE8CC32BC7636600FCC32C /* QuestionnaireMakerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionnaireMakerApp.swift; sourceTree = "<group>"; };
 		7ACE8CC52BC7636600FCC32C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +54,10 @@
 		7ACE8CDA2BC7636800FCC32C /* QuestionnaireMakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuestionnaireMakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ACE8CDE2BC7636800FCC32C /* QuestionnaireMakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionnaireMakerUITests.swift; sourceTree = "<group>"; };
 		7ACE8CE02BC7636800FCC32C /* QuestionnaireMakerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionnaireMakerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7ACE8CED2BC7644400FCC32C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7ACE8CF82BC766AA00FCC32C /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		7ACE8CFA2BC79B8300FCC32C /* CreateQuestionnaireView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateQuestionnaireView.swift; sourceTree = "<group>"; };
+		7AF325042BC9FB8C004A801B /* FillQuestionnaireView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillQuestionnaireView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +65,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ACE8CF52BC765D000FCC32C /* FirebaseFirestoreCombine-Community in Frameworks */,
+				7ACE8CF12BC765D000FCC32C /* FirebaseAuth in Frameworks */,
+				7ACE8CF32BC765D000FCC32C /* FirebaseFirestore in Frameworks */,
+				7ACE8CF72BC765D000FCC32C /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +89,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A1D272B2BCD06390093A375 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7ACE8CC52BC7636600FCC32C /* ContentView.swift */,
+				7ACE8CFA2BC79B8300FCC32C /* CreateQuestionnaireView.swift */,
+				7A1D27292BCBC5510093A375 /* ShowResponsesView.swift */,
+				7AF325042BC9FB8C004A801B /* FillQuestionnaireView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		7ACE8CB72BC7636600FCC32C = {
 			isa = PBXGroup;
 			children = (
@@ -95,8 +124,10 @@
 			isa = PBXGroup;
 			children = (
 				7ACE8CC32BC7636600FCC32C /* QuestionnaireMakerApp.swift */,
-				7ACE8CC52BC7636600FCC32C /* ContentView.swift */,
+				7A1D272B2BCD06390093A375 /* Views */,
+				7ACE8CF82BC766AA00FCC32C /* Models.swift */,
 				7ACE8CC72BC7636800FCC32C /* Assets.xcassets */,
+				7ACE8CED2BC7644400FCC32C /* GoogleService-Info.plist */,
 				7ACE8CC92BC7636800FCC32C /* Preview Content */,
 			);
 			path = QuestionnaireMaker;
@@ -143,6 +174,12 @@
 			dependencies = (
 			);
 			name = QuestionnaireMaker;
+			packageProductDependencies = (
+				7ACE8CF02BC765D000FCC32C /* FirebaseAuth */,
+				7ACE8CF22BC765D000FCC32C /* FirebaseFirestore */,
+				7ACE8CF42BC765D000FCC32C /* FirebaseFirestoreCombine-Community */,
+				7ACE8CF62BC765D000FCC32C /* FirebaseFirestoreSwift */,
+			);
 			productName = QuestionnaireMaker;
 			productReference = 7ACE8CC02BC7636600FCC32C /* QuestionnaireMaker.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +252,9 @@
 				Base,
 			);
 			mainGroup = 7ACE8CB72BC7636600FCC32C;
+			packageReferences = (
+				7ACE8CEF2BC765D000FCC32C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 7ACE8CC12BC7636600FCC32C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +273,7 @@
 			files = (
 				7ACE8CCB2BC7636800FCC32C /* Preview Assets.xcassets in Resources */,
 				7ACE8CC82BC7636800FCC32C /* Assets.xcassets in Resources */,
+				7ACE8CEE2BC7644400FCC32C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +298,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AF325052BC9FB8C004A801B /* FillQuestionnaireView.swift in Sources */,
+				7ACE8CF92BC766AA00FCC32C /* Models.swift in Sources */,
 				7ACE8CC62BC7636600FCC32C /* ContentView.swift in Sources */,
+				7ACE8CFB2BC79B8300FCC32C /* CreateQuestionnaireView.swift in Sources */,
+				7A1D272A2BCBC5510093A375 /* ShowResponsesView.swift in Sources */,
 				7ACE8CC42BC7636600FCC32C /* QuestionnaireMakerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -583,6 +628,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7ACE8CEF2BC765D000FCC32C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7ACE8CF02BC765D000FCC32C /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7ACE8CEF2BC765D000FCC32C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		7ACE8CF22BC765D000FCC32C /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7ACE8CEF2BC765D000FCC32C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		7ACE8CF42BC765D000FCC32C /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7ACE8CEF2BC765D000FCC32C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		7ACE8CF62BC765D000FCC32C /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7ACE8CEF2BC765D000FCC32C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7ACE8CB82BC7636600FCC32C /* Project object */;
 }
