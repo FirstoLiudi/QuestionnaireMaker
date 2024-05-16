@@ -10,7 +10,7 @@ import SwiftUI
 struct CreateQuestionView: View {
     let order: Int
     @Binding var question: Question
-    @State private var isAddingChoice = false 
+    @State private var isAddingChoice = false
     @State private var isRemovingChoice = false
 
     var body: some View {
@@ -49,6 +49,7 @@ struct CreateQuestionnaireView: View {
     @State private var name=""
     @State private var questionnaire=Questionnaire(questions: [])
     @Environment(\.presentationMode) var presentationMode
+    @State private var pressed = false
     
     var body: some View {
         Form{
@@ -59,12 +60,9 @@ struct CreateQuestionnaireView: View {
                 CreateQuestionView(order:i+1, question: $questionnaire.questions[i])
             }
             Button("Add question") {
+                print(questionnaire.questions.count)
                 questionnaire.questions.append(Question(text: "", choices: [""]))
-            }
-            if(questionnaire.questions.count > 1) {
-                Button("Remove Last Question") {
-                    questionnaire.questions.removeLast()
-                }
+                print(questionnaire.questions.count)
             }
             Button("Finish") {
                 setQuestionnnaire(name, questionnaire)
